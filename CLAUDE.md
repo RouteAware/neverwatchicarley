@@ -15,6 +15,10 @@ RouteAware/neverwatchicarley, static single page). Inherits the global profile
    The target is the *format* of overwrought warnings, not the show or its fans.
 4. Keep it tiny. This site's charm is that someone clearly went too far on
    something that matters zero. Features are anti-jokes here.
+5. **Monetization (owner decision 2026-08-29): merch first, AdSense maybe
+   later, junk ad networks never.** If ads ever ship: plain labeling only —
+   never joke-label an ad unit or encourage clicks (AdSense policy + our own
+   honesty rule). See ROADMAP.md for the sequence.
 
 ## Brand
 - Palette: ink `#111`, hazard yellow `#ffd400`, paper `#f4f4f0`. Helvetica.

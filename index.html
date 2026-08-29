@@ -8,6 +8,9 @@
   <meta property="og:title" content="NEVER WATCH iCARLEY" />
   <meta property="og:description" content="This is your only warning. (It's a parody. Obviously.)" />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://neverwatchicarley.com" />
+  <meta property="og:image" content="https://neverwatchicarley.com/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png?v=2" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <meta name="theme-color" content="#111111" />
@@ -34,15 +37,24 @@
     .facts{margin:44px auto 0;max-width:560px;text-align:left;display:grid;gap:10px}
     .fact{border:2px solid #2a2a2a;border-left:6px solid var(--hazard);padding:12px 16px;font-size:1rem}
     .fact b{color:var(--hazard)}
-    .btnrow{margin:40px 0 8px}
+    .btnrow{margin:40px 0 8px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
     button{
       background:var(--hazard);color:#111;border:0;font-weight:900;text-transform:uppercase;
       letter-spacing:.06em;font-size:1.05rem;padding:16px 28px;border-radius:6px;cursor:pointer;
       transition:transform .08s ease;
     }
+    button.alt{background:transparent;color:var(--hazard);border:3px solid var(--hazard)}
     button:hover{transform:translateY(-2px)}
     button:active{transform:translateY(0)}
     #verdict{margin-top:18px;min-height:28px;font-weight:800;color:var(--hazard);font-size:1.05rem}
+    .testi{margin:56px auto 0;max-width:560px;text-align:left}
+    .testi h2{color:var(--hazard);font-weight:900;letter-spacing:.24em;font-size:12px;text-transform:uppercase;margin-bottom:12px}
+    .quote{border-left:6px solid var(--hazard);background:#161616;padding:14px 16px;margin-top:10px;font-size:1rem;font-style:italic}
+    .quote small{display:block;font-style:normal;color:#8a8a86;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:11px;margin-top:8px}
+    .merch{margin:56px auto 0;max-width:560px;border:3px solid var(--hazard);padding:22px;text-align:center}
+    .merch h2{color:var(--hazard);font-weight:900;letter-spacing:.24em;font-size:12px;text-transform:uppercase}
+    .merch p{color:#cfcfca;margin-top:10px;font-size:1rem}
+    .merch .soon{display:inline-block;margin-top:14px;border:2px dashed #3a3a3a;color:#8a8a86;font-weight:900;letter-spacing:.14em;text-transform:uppercase;font-size:12px;padding:8px 14px}
     .fsq{margin:56px auto 0;max-width:560px;text-align:left}
     .fsq h2{color:var(--hazard);font-weight:900;letter-spacing:.24em;font-size:12px;text-transform:uppercase;margin-bottom:12px}
     .q{border:2px dashed #2f2f2f;padding:13px 16px;margin-top:10px;font-size:1rem}
@@ -79,11 +91,21 @@
       <div class="fact"><b>Fact 003.</b> Side effects may include: having watched it.</div>
       <div class="fact"><b>Fact 004.</b> Legally and lovingly distinct from any show you may be thinking of.</div>
       <div class="fact"><b>Fact 005.</b> This website is the only known cure. You're welcome.</div>
+      <div class="fact"><b>Fact 006.</b> Studies are ongoing. The studies are us, thinking about it.</div>
+      <div class="fact"><b>Fact 007.</b> You've made it this far without watching it. Don't ruin the streak.</div>
     </div>
 
     <div class="btnrow">
       <button id="risk" type="button">I'll risk it</button>
-      <div id="verdict" role="status" aria-live="polite"></div>
+      <button id="warn" type="button" class="alt">Warn someone</button>
+    </div>
+    <div id="verdict" role="status" aria-live="polite"></div>
+
+    <div class="testi">
+      <h2>Citizen statements</h2>
+      <div class="quote">"I was going to watch it. Then I didn't. This website works."<small>— Citizen 0041</small></div>
+      <div class="quote">"I printed this page and taped it to my television. Nothing has happened since. Perfect."<small>— Citizen 1207</small></div>
+      <div class="quote">"Ten out of ten. I do not know what this is."<small>— A grandmother, allegedly</small></div>
     </div>
 
     <div class="fsq">
@@ -91,6 +113,13 @@
       <div class="q"><b>Q. What if I already watched it?</b><div class="a">Sit down. Drink some water. Tell no one.</div></div>
       <div class="q"><b>Q. Surely once is fine?</b><div class="a">Once is how it starts. Ask anyone. Actually, don't ask anyone.</div></div>
       <div class="q"><b>Q. Who runs this bureau?</b><div class="a">Concerned citizens with a domain name. That is all you need to know, and frankly more than we intended to say.</div></div>
+      <div class="q"><b>Q. Can I give the bureau money?</b><div class="a">There will be a store. We are as surprised as you are.</div></div>
+    </div>
+
+    <div class="merch" id="merch">
+      <h2>Official bureau merchandise</h2>
+      <p>The bureau requires funding. Bureaus famously do. Stickers and shirts bearing the official seal are being procured through proper channels.</p>
+      <span class="soon">Store opening soon</span>
     </div>
 
     <div class="counter">
@@ -117,12 +146,43 @@
         "The prophecy is fulfilled.",
         "We're not mad. We're just disappointed.",
         "Incredible bravery. Terrible judgment.",
-        "History will remember this."
+        "History will remember this.",
+        "The bureau has been notified.",
+        "Your file has been updated.",
+        "Somewhere, a clipboard was lowered in sorrow."
       ];
       var i = 0;
+      var verdict = document.getElementById('verdict');
       document.getElementById('risk').addEventListener('click', function () {
-        document.getElementById('verdict').textContent = lines[i % lines.length];
+        verdict.textContent = lines[i % lines.length];
         i++;
+      });
+      document.getElementById('warn').addEventListener('click', function () {
+        var payload = { title: 'NEVER WATCH iCARLEY', text: 'This is your only warning.', url: 'https://neverwatchicarley.com' };
+        function copyFallback() {
+          if (navigator.clipboard) {
+            navigator.clipboard.writeText(payload.text + ' ' + payload.url).then(function () {
+              verdict.textContent = "Warning copied. Deliver it responsibly.";
+            }, function () {
+              verdict.textContent = "Copy failed. Shout the warning instead.";
+            });
+          } else {
+            verdict.textContent = "Your browser refuses to help. Typical.";
+          }
+        }
+        if (navigator.share) {
+          navigator.share(payload).then(function () {
+            verdict.textContent = "Warning delivered. The bureau thanks you.";
+          }).catch(function (e) {
+            if (e && e.name === 'AbortError') {
+              verdict.textContent = "Warning withheld. Understandable.";
+            } else {
+              copyFallback();
+            }
+          });
+        } else {
+          copyFallback();
+        }
       });
       var s = 0, el = document.getElementById('secs');
       setInterval(function () { s++; el.textContent = s; }, 1000);
