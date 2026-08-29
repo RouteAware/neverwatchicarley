@@ -43,6 +43,11 @@
     button:hover{transform:translateY(-2px)}
     button:active{transform:translateY(0)}
     #verdict{margin-top:18px;min-height:28px;font-weight:800;color:var(--hazard);font-size:1.05rem}
+    .fsq{margin:56px auto 0;max-width:560px;text-align:left}
+    .fsq h2{color:var(--hazard);font-weight:900;letter-spacing:.24em;font-size:12px;text-transform:uppercase;margin-bottom:12px}
+    .q{border:2px dashed #2f2f2f;padding:13px 16px;margin-top:10px;font-size:1rem}
+    .q b{color:var(--hazard)}
+    .q .a{color:#cfcfca;margin-top:5px}
     .counter{margin-top:40px;font-weight:900;font-size:clamp(1.4rem,5vw,2.2rem)}
     .counter span{color:var(--hazard)}
     .counter small{display:block;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#8a8a86;font-weight:700;margin-top:6px}
@@ -73,11 +78,19 @@
       <div class="fact"><b>Fact 002.</b> Zero doctors recommend it. We didn't ask any. We just have a feeling.</div>
       <div class="fact"><b>Fact 003.</b> Side effects may include: having watched it.</div>
       <div class="fact"><b>Fact 004.</b> Legally and lovingly distinct from any show you may be thinking of.</div>
+      <div class="fact"><b>Fact 005.</b> This website is the only known cure. You're welcome.</div>
     </div>
 
     <div class="btnrow">
       <button id="risk" type="button">I'll risk it</button>
       <div id="verdict" role="status" aria-live="polite"></div>
+    </div>
+
+    <div class="fsq">
+      <h2>Frequently shouted questions</h2>
+      <div class="q"><b>Q. What if I already watched it?</b><div class="a">Sit down. Drink some water. Tell no one.</div></div>
+      <div class="q"><b>Q. Surely once is fine?</b><div class="a">Once is how it starts. Ask anyone. Actually, don't ask anyone.</div></div>
+      <div class="q"><b>Q. Who runs this bureau?</b><div class="a">Concerned citizens with a domain name. That is all you need to know, and frankly more than we intended to say.</div></div>
     </div>
 
     <div class="counter">
@@ -94,6 +107,7 @@
       <br>Made for laughs by <a href="https://recursisdigital.com" target="_blank" rel="noopener">Recursis</a>.
     </div>
   </footer>
+  <div class="stripes"></div>
 
   <script>
     (function () {
