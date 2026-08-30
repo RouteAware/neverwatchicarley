@@ -64,6 +64,20 @@
     .counter span{color:var(--hazard)}
     .counter small{display:block;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#8a8a86;font-weight:700;margin-top:6px}
     footer{border-top:1px solid #262626;margin-top:56px}
+    /* Desktop: same bureau, wider desk. Mobile rules above stay untouched. */
+    @media (min-width:880px){
+      .wrap{max-width:1100px}
+      .facts{max-width:960px;grid-template-columns:1fr 1fr;gap:12px}
+      .facts .fact:last-child{grid-column:1/-1}
+      .testi{max-width:1000px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;align-items:stretch}
+      .testi h2{grid-column:1/-1;margin-bottom:0}
+      .quote{margin-top:0}
+      .fsq{max-width:960px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+      .fsq h2{grid-column:1/-1;margin-bottom:0}
+      .q{margin-top:0}
+      .merch{max-width:680px}
+      .foot{max-width:1100px}
+    }
     .foot{max-width:820px;margin:0 auto;padding:20px 24px;color:#7c7c78;font-size:12px;line-height:1.6}
     .foot a{color:#9a9a94}
     .foot a:hover{color:var(--hazard)}
