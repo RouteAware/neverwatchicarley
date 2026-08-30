@@ -22,10 +22,14 @@ The deadpan stays law regardless.
   variants (byte-level alpha verified); 5-product lineup w/ deadpan copy +
   pricing; Alexander's 20-min click-by-click incl. the Namecheap CNAME
   (this domain is on Namecheap BasicDNS — verified).
-- ⬜ ALEXANDER: run the clicks in docs/MERCH.md (account, payout, 5 product
-  uploads, optional shop subdomain) → tell Hale the shop link
-- ⬜ HALE (after link): verify domain/cert, click-test storefront, swap the
-  "Store opening soon" teaser → live store link
+- ✅ SHOP LIVE 2026-08-30: Alexander created the Fourthwall account; Hale
+  built the rest in-browser — 5 products public (2 tees, sticker, mug,
+  hoodie), site set Live, teaser swapped → shop link, deployed + verified.
+  Shop: https://neverwatchicarley-com-shop.fourthwall.com (see docs/MERCH.md)
+- ⬜ ALEXANDER: confirm payout connection (Settings → Billing and payouts);
+  optional shop.neverwatchicarley.com CNAME at Namecheap
+- ⬜ HALE polish: replace default stock-photo storefront banner w/ seal art;
+  theme colors pass
 - ⬜ Optional: Ko-fi "Fund the Bureau" tip jar (his account)
 
 ## Later — AdSense (only after content/traffic justify it)

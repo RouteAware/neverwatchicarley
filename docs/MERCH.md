@@ -49,7 +49,25 @@ Re-render command (headless Chrome, transparent):
   funds the continued operation of this notice. This is not a threat. It is
   a statement of operational reality."
 
-## ALEXANDER'S CLICKS (one-time, ~20 min, phone or desktop)
+## ✅ SHOP IS LIVE (2026-08-30, built by Hale via browser after Alexander's signup)
+- **Shop: https://neverwatchicarley-com-shop.fourthwall.com** — site set LIVE
+  (password page off), theme installed, 5 products PUBLIC:
+  Compliance Tee $27 (black) · Compliance Tee (White) $27 · Warning Sticker
+  $6 (3x3/4x4/5.5 — 15x3.75 banner size removed, art cropped ugly) ·
+  Regulation Mug $16/19/22 (11/15/20oz) · Bureau Hoodie $52. All deadpan copy
+  from this doc, verbatim.
+- Site teaser swapped → live link ("The bureau now accepts your money →"),
+  CLI-deployed to neverwatchicarley.com, verified.
+- Notes: hoodie needed a fresh draft (first one corrupted mid-session —
+  Fourthwall designer's resize/position menus are flaky; when a publish
+  silently fails, reload the details page and retry, or rebuild the draft).
+- POLISH LATER: storefront still has the theme's default stock-photo banner
+  ("Browse new merch") — replace w/ seal art or delete section; consider brand
+  colors (hazard yellow/ink) in theme Style tab. Alexander still owed:
+  payout connection check (Settings → Billing and payouts) + optional
+  shop.neverwatchicarley.com CNAME (Settings → Domain → Connect domain).
+
+## ORIGINAL SETUP CLICKS (done 2026-08-30, kept for reference)
 1. Go to **fourthwall.com** → Get started → create the account with
    info@alexandermhughes.com. (Accounts/payments are yours by our rules.)
 2. Shop name: **Never Watch iCarley** · handle: `never-watch-icarley` (or
