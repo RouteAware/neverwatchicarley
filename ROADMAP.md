@@ -15,10 +15,17 @@ The deadpan stays law regardless.
   card, merch teaser section, merch-art/ vector masters (seal + wordmark)
 
 ## Next — merch (the monetization pick)
-- ⬜ Alexander opens a print-on-demand storefront (Fourthwall or Printful —
-  his accounts/money; Hale stages art + copy, walks him click-by-click)
-- ⬜ Products: sticker + shirt + mug from merch-art/seal-wordmark.svg
-- ⬜ Swap the "Store opening soon" teaser for the real store link
+- ✅ Merch pipeline FULLY STAGED by Hale (2026-08-29, docs/MERCH.md):
+  Fourthwall chosen + verified ($0/mo, hosted shop, Merchant of Record —
+  they handle sales tax, printing, shipping, support); 4 print-ready
+  transparent PNGs rendered from the vector masters incl. dark-garment
+  variants (byte-level alpha verified); 5-product lineup w/ deadpan copy +
+  pricing; Alexander's 20-min click-by-click incl. the Namecheap CNAME
+  (this domain is on Namecheap BasicDNS — verified).
+- ⬜ ALEXANDER: run the clicks in docs/MERCH.md (account, payout, 5 product
+  uploads, optional shop subdomain) → tell Hale the shop link
+- ⬜ HALE (after link): verify domain/cert, click-test storefront, swap the
+  "Store opening soon" teaser → live store link
 - ⬜ Optional: Ko-fi "Fund the Bureau" tip jar (his account)
 
 ## Later — AdSense (only after content/traffic justify it)
