@@ -61,9 +61,14 @@ Re-render command (headless Chrome, transparent):
 - Notes: hoodie needed a fresh draft (first one corrupted mid-session —
   Fourthwall designer's resize/position menus are flaky; when a publish
   silently fails, reload the details page and retry, or rebuild the draft).
-- POLISH LATER: storefront still has the theme's default stock-photo banner
-  ("Browse new merch") — replace w/ seal art or delete section; consider brand
-  colors (hazard yellow/ink) in theme Style tab. Alexander still owed:
+- ✅ POLISH DONE 2026-08-30 (portfolio Fourthwall pass): stock "Bold new
+  looks" text banner deleted (with its "Become a member" button); brand
+  Image banner installed (masters: merch-art/shop-banner-wide.png +
+  shop-poster-*.png — seal + hazard stripes + "This is your only warning");
+  theme colors set to brand (Primary #ffd400, bg #f4f4f0, text #111,
+  ink-on-yellow buttons). ALSO: a duplicate PUBLIC "Bureau Hoodie"
+  (slug bureau-hoodie-2, the corrupted-draft twin) was found and set
+  PRIVATE — storefront now shows exactly 5 products. Alexander still owed:
   payout connection check (Settings → Billing and payouts) + optional
   shop.neverwatchicarley.com CNAME (Settings → Domain → Connect domain).
 
