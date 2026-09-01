@@ -26,7 +26,11 @@ RouteAware/neverwatchicarley, static single page). Inherits the global profile
 - Logo (2026-08-29): red prohibition circle-slash over a rabbit-ear CRT TV.
   Favicon + touch icon + the PSA stamp above the headline.
 
-## State (2026-08-29)
-Single page: stamp → PSA headline → 5 numbered facts → "I'll risk it" button
-(cycling deadpan verdicts) → Frequently Shouted Questions → seconds counter →
-parody footer. No backend, no analytics. Future ideas: `ROADMAP.md`.
+## State (2026-08-31)
+Single page: stamp → PSA headline → 7 numbered facts → "I'll risk it" /
+"Warn someone" buttons → Citizen statements → 6 FSQs → merch box (live
+Fourthwall shop link) → seconds counter → parody footer. Vercel Analytics
+(cookieless). SEO pass shipped 2026-08-31: JSON-LD (@graph incl. FAQPage —
+keep it in sync with visible FSQ copy if either changes), "(Parody)" title,
+sitemap lastmod, IndexNow key f48e62a19c97dba0db338823e69b1d61.txt at root.
+GSC verification pending (Alexander). Future ideas: `ROADMAP.md`.

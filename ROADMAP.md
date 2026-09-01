@@ -32,6 +32,20 @@ The deadpan stays law regardless.
   theme colors pass
 - ⬜ Optional: Ko-fi "Fund the Bureau" tip jar (his account)
 
+## SEO (pass shipped 2026-08-31 by Hale)
+- ✅ On-page: title "(Parody)" suffix, CTR-tuned meta description, og:locale,
+  JSON-LD @graph (Organization/WebSite/WebPage/FAQPage — FAQ matches visible
+  FSQ copy exactly), 2 new searchable FSQ entries ("What is…", "Is this
+  real?"), store answer tense fixed ("There is a store")
+- ✅ sitemap.xml lastmod; robots.txt already correct
+- ✅ IndexNow: key f48e62a19c97dba0db338823e69b1d61 (key file at site root),
+  homepage + sitemap pinged to api.indexnow.org (covers Bing/Yandex/etc)
+- ⬜ ALEXANDER: Google Search Console — add property for
+  neverwatchicarley.com, verify, submit sitemap.xml (Hale stages the steps;
+  Google has no login-free submission path since sitemap-ping retired)
+- SEO law here: the real show is NEVER a keyword anywhere — the misspelling
+  itself is the entire search surface; Google fuzzy-matches it on its own.
+
 ## Later — AdSense (only after content/traffic justify it)
 - ⬜ /privacy.html (AdSense-compliant), EEA consent (Google CMP), ads.txt
 - ⬜ Alexander applies; two manual slots max; NO joke-labeled ads (policy)
