@@ -88,8 +88,10 @@ Re-render command (headless Chrome, transparent):
   `compliance-tee-white-bc` (rollback = swap URLs + statuses back).
 - Hoodie / mug / sticker untouched.
 - Hero: square card `merch-art/shop-hero-card-v3.png` (1350², seal + hazard
-  stripes + "THIS IS YOUR ONLY WARNING.", source shop-hero-card-v3.html) for an
-  "Image with text" split section — see plan run log for whether it shipped.
+  stripes + "THIS IS YOUR ONLY WARNING.", source shop-hero-card-v3.html) SHIPPED 2026-09-05
+  as an "Image with text" split section (heading "This is your only warning.",
+  button "Comply" → /collections/all); the old cover-crop Image banner is
+  HIDDEN, not deleted (rollback = un-hide). Verified desktop + Mobile toggle.
 - Domain: Namecheap CNAME `shop.neverwatchicarley.com → shops.fourthwall.com`
   added 2026-09-04 via hale-tools/namecheap_dns.py.
 - Gotcha: this shop's product page re-mounts ~8-10s after load — wait 12s
