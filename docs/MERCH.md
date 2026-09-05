@@ -72,6 +72,30 @@ Re-render command (headless Chrome, transparent):
   payout connection check (Settings → Billing and payouts) + optional
   shop.neverwatchicarley.com CNAME (Settings → Domain → Connect domain).
 
+
+## 2026-09-05 — Comfort Colors migration (portfolio polish, Hale)
+- Both Compliance Tees rebuilt from the catalog on **Comfort Colors 1717**
+  (Black + White), house print standard applied: **seal 4.06" left chest
+  (Fit to area → Left chest) + full-area warning wordmark on the back** (two
+  prints, base $21.40). Price $27 → **$32** per the locked table — NOTE that
+  yields only **$10.60/sale** because the tee is now two-print; the old
+  single-print $27 made ~$15. Owner call whether to go to $38 (=$16.60/sale,
+  what the other two-print tees in the portfolio earn).
+- New ids: Compliance Tee (black) `2e898ff1-d40c-4dfb-990e-511c4d27dabb` on
+  `/products/compliance-tee`; Compliance Tee (White)
+  `e67c3430-082b-4a18-871f-dcd4833fd0d9` on `/products/compliance-tee-white`.
+  Old Bella tees parked **Private** on `compliance-tee-bc` /
+  `compliance-tee-white-bc` (rollback = swap URLs + statuses back).
+- Hoodie / mug / sticker untouched.
+- Hero: square card `merch-art/shop-hero-card-v3.png` (1350², seal + hazard
+  stripes + "THIS IS YOUR ONLY WARNING.", source shop-hero-card-v3.html) for an
+  "Image with text" split section — see plan run log for whether it shipped.
+- Domain: Namecheap CNAME `shop.neverwatchicarley.com → shops.fourthwall.com`
+  added 2026-09-04 via hale-tools/namecheap_dns.py.
+- Gotcha: this shop's product page re-mounts ~8-10s after load — wait 12s
+  before opening Change URL / the status popover, and use `find` refs, not
+  coordinates, or the typing lands in nothing.
+
 ## ORIGINAL SETUP CLICKS (done 2026-08-30, kept for reference)
 1. Go to **fourthwall.com** → Get started → create the account with
    info@alexandermhughes.com. (Accounts/payments are yours by our rules.)
