@@ -26,10 +26,10 @@ The deadpan stays law regardless.
   built the rest in-browser — 5 products public (2 tees, sticker, mug,
   hoodie), site set Live, teaser swapped → shop link, deployed + verified.
   Shop: https://neverwatchicarley-com-shop.fourthwall.com (see docs/MERCH.md)
-- ⬜ ALEXANDER: confirm payout connection (Settings → Billing and payouts);
-  optional shop.neverwatchicarley.com CNAME at Namecheap
-- ⬜ HALE polish: replace default stock-photo storefront banner w/ seal art;
-  theme colors pass
+- ✅ Payouts connected (2026-09-05, account-wide Fourthwall pass) and
+  shop.neverwatchicarley.com live on https (Namecheap CNAME/A, 2026-09-05)
+- ✅ Storefront banner/hero + logo + theme colors done (2026-09-05 Fourthwall
+  polish pass, all 5 shops)
 - ⬜ Optional: Ko-fi "Fund the Bureau" tip jar (his account)
 
 ## SEO (pass shipped 2026-08-31 by Hale)
@@ -47,7 +47,10 @@ The deadpan stays law regardless.
   itself is the entire search surface; Google fuzzy-matches it on its own.
 
 ## Later — AdSense (only after content/traffic justify it)
-- ⬜ /privacy.html (AdSense-compliant), EEA consent (Google CMP), ads.txt
+- 🔄 /privacy.html SHIPPED TO PREVIEW 2026-09-06 (branch privacy-2026-09-06:
+  discloses Vercel Analytics, Meta Pixel w/ working Do-Not-Sell opt-out + GPC,
+  Fourthwall as merchant of record; footer links; HSTS). Awaiting owner
+  click-test → merge. Still ⬜ for AdSense: EEA consent (Google CMP), ads.txt
 - ⬜ Alexander applies; two manual slots max; NO joke-labeled ads (policy)
 - Junk ad networks (popunders/redirect networks): permanently off the table.
 

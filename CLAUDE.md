@@ -33,4 +33,6 @@ Fourthwall shop link) → seconds counter → parody footer. Vercel Analytics
 (cookieless). SEO pass shipped 2026-08-31: JSON-LD (@graph incl. FAQPage —
 keep it in sync with visible FSQ copy if either changes), "(Parody)" title,
 sitemap lastmod, IndexNow key f48e62a19c97dba0db338823e69b1d61.txt at root.
-GSC verification pending (Alexander). Future ideas: `ROADMAP.md`.
+GSC verified 2026-09-02. Privacy page + pixel opt-out on branch
+privacy-2026-09-06 (preview, 2026-09-06) — meta-pixel.js must stay byte-identical
+across all five Recursis brand sites. Future ideas: `ROADMAP.md`.
