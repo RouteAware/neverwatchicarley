@@ -33,6 +33,8 @@ Fourthwall shop link) → seconds counter → parody footer. Vercel Analytics
 (cookieless). SEO pass shipped 2026-08-31: JSON-LD (@graph incl. FAQPage —
 keep it in sync with visible FSQ copy if either changes), "(Parody)" title,
 sitemap lastmod, IndexNow key f48e62a19c97dba0db338823e69b1d61.txt at root.
-GSC verified 2026-09-02. Privacy page + pixel opt-out on branch
-privacy-2026-09-06 (preview, 2026-09-06) — meta-pixel.js must stay byte-identical
-across all five Recursis brand sites. Future ideas: `ROADMAP.md`.
+GSC verified 2026-09-02. **NO Meta pixel on this site** — removed 2026-09-21
+(branch `pixel-off-2026-09-21`, owner ruling Q-41, California CIPA §631: this
+site never carried ad spend, so the pixel was pure exposure). Do not re-add it;
+the byte-identical-meta-pixel.js rule now applies only to Recursis-Site,
+TerribleShirt-Site and PokeSpa-Site. Vercel Web Analytics (cookieless) stays. Future ideas: `ROADMAP.md`.
